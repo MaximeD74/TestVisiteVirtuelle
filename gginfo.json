@@ -1,0 +1,31 @@
+{
+	"version": 1,
+	"type": "panorama",
+	"external": {
+		"js": [
+			"3rdparty/leaflet/leaflet.js",
+			"3rdparty/lottie/lottie.min.js",
+			"webxr/three.min.js",
+			"webxr/webxr-polyfill.min.js"
+		],
+		"css": [
+			"3rdparty/leaflet/leaflet.css"
+		]
+	},
+	"skin": {
+		"js": "skin.js"
+	},
+	"vrskin": {
+		"js": "skin_vr.js"
+	},
+	"player": {
+		"js": "pano2vr_player.js"
+	},
+	"creationdate": "2024-07-04T13:35:11.083Z",
+	"configuration": "pano.xml",
+	"preview": {
+		"img": "preview.jpg",
+		"width": 640,
+		"height": 480
+	}
+}
